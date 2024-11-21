@@ -1,0 +1,66 @@
+[
+    {
+        "imgSrc": "./img/Mask-group.png",
+        "title": "Chicken",
+        "price": "$125.00",
+        "rating": "./img/stars.svg",
+        "description": "Foxkid",
+        "category": "Fox kids"
+    },
+    {
+        "imgSrc": "./img/fox_1.png",
+        "title": "Grilled Salmon",
+        "price": "$110.00",
+        "rating": "./img/stars.svg",
+        "description": "Foxkid",
+        "category": "Fox kids"
+    },
+    {
+        "imgSrc": "./img/fox_2.png",
+        "title": "Meats",
+        "price": "$150.00",
+        "rating": "./img/stars.svg",
+        "description": "Foxkid",
+        "category": "Fox kids"
+    },
+    {
+        "imgSrc": "./img/fox_3.png",
+        "title": "Shrimp Cocktail",
+        "price": "$160.00",
+        "rating": "./img/stars.svg",
+        "description": "Other",
+        "category": "Other"
+    },
+    {
+        "imgSrc": "./img/fox_4.png",
+        "title": "Pasta",
+        "price": "$100.00",
+        "rating": "./img/stars.svg",
+        "description": "Forest",
+        "category": "Forest"
+    },
+    {
+        "imgSrc": "./img/fox_5.png",
+        "title": "Calamari Rings",
+        "price": "$140.00",
+        "rating": "./img/stars.svg",
+        "description": "Forest",
+        "category": "Forest"
+    },
+    {
+        "imgSrc": "./img/fox_6.png",
+        "title": "Caesar Salad",
+        "price": "$120.00",
+        "rating": "./img/stars.svg",
+        "description": "Forest",
+        "category": "Forest"
+    },
+    {
+        "imgSrc": "./img/fox_7.png",
+        "title": "Spanish Tortilla",
+        "price": "$120.00",
+        "rating": "./img/stars.svg",
+        "description": "Other",
+        "category": "Other"
+    }
+]

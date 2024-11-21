@@ -1,0 +1,838 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 102px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head h1 {
+    color: rgba(204, 85, 32, 1);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 17.07px;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+.head span {
+    background-color: white;
+    color: black;
+}
+
+.head ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.head ul li a {
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+.head ul li a:hover {
+    color: rgba(204, 85, 32, 1);
+    transition: .4s;
+}
+
+.buttons button {
+    border: none;
+    cursor: pointer;
+}
+
+.basket-foxy {
+    background: none;
+}
+
+.link p a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts ul {
+    display: flex;
+    gap: 40px;
+}
+
+.breadcrumbs a {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    letter-spacing: 0.05em;
+    text-align: center;    
+    color: rgba(150, 149, 149, 1);
+    text-decoration: none;
+}
+
+.all-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 55px 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    width: 950px;
+    justify-content: center;
+}
+
+input[type='text'] {
+    width: 156px;
+    height: 11px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.search button {
+    background: none;
+    border: none;
+    position: relative;
+    top: 6px;
+    left: -45px;
+    cursor: pointer;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.selection h4 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 1); 
+}
+
+.topic li a {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;  
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none; 
+    width: 200px;
+    text-align: center; 
+    padding: 8px 0; 
+}
+
+.topic li {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.topic li:hover {
+    background: rgba(204, 85, 32, 1);
+    cursor: pointer;
+    color: white;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+.all-foxes {
+    width: 598px;
+    height: 70px;
+    background: rgba(204, 85, 32, 1);
+    border: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;    
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: -80px;
+    left: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.all-foxes:hover {
+    background: rgb(187, 69, 18);
+    transition: .4s;
+}
+
+.card button{
+    border: none;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    position: relative;
+    top: -213px;
+    left: 350px;
+    background: rgba(204, 85, 32, 1);
+    color: white;
+}
+
+.card button:hover {
+    background: white;
+    color: rgba(204, 85, 32, 1);
+    transition: .3s;
+}
+
+.add-remove {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ad, .plus, .minus {
+    background: none;
+    border: none;
+}
+
+.add-remove button{
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 49.09px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    cursor: pointer;    
+}
+
+.add-remove span{
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 49.09px;
+    letter-spacing: 0.02em;
+    text-align: center;  
+    background: rgba(204, 85, 32, 1);
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+}
+
+
+.cross {
+    background: none;
+    border: none;
+}
+
+.remove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h6 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-align: center;    
+}
+
+.cart-item {
+    display: flex;
+}
+
+.info-img img {
+    width: 204px;
+    height: 111px;
+}
+
+.info-img .inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-item .inf h6 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-align: center;    
+}
+
+.card button p {
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.card button h6 {
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16.5px;
+    letter-spacing: 0.05em;  
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: -50px;
+}
+
+.info h2, h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.info h4 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: rgba(150, 149, 149, 1);    
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    background: rgba(25, 25, 25, 1);
+    padding: 70px 120px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.link h4 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;   
+    color: white;
+}
+
+.link p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28.07px;
+    text-align: left;  
+    color: white;  
+    text-decoration: none;
+}
+
+.link li {
+    list-style-type: none;
+}
+
+.link li a {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28.07px;
+    text-align: left;  
+    color: white;  
+    text-decoration: none;
+}
+
+.contacts button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+footer h5 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    text-align: left; 
+    background: rgba(25, 25, 25, 1);
+    color: white;
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+}
+
+.link h3 {
+    color: rgba(204, 85, 32, 1);
+    font-size: 24px;
+}
+
+.link h3 span {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+[for=burger], .checkbox {
+    display: none;
+}
+
+[for=burger] {
+    display: block;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav {
+    display: none;
+}
+
+#burger:checked+label+.nav {
+    position: fixed;
+    width: 445px;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    overflow-y: scroll;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.price span {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;    
+}
+
+.checkout {
+    width: 353px;
+    height: 70px;
+    background: rgba(204, 85, 32, 1);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: white;      
+}
+
+.checkout:hover {
+    background: rgb(226, 93, 35);
+    transition: .4s;  
+}
+
+.nav h1 {
+    font-family: Playfair Display;
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 55.5px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: black;    
+}
+
+.nav h3 {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    letter-spacing: 0.05em;
+    text-align: center;    
+    color: rgba(150, 149, 149, 1);
+    padding: 0 0 40px 0;
+}
+
+.nav h2 {
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: black;    
+}
+
+#dot {
+    display: none;
+}
+
+[for='dot'] {
+    display: none;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.links div {
+    flex: 1;
+}
+
+.navigation-list a.active {
+    color: rgb(255, 94, 0); 
+}
+
+.all-foxes a {
+    width: 595px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.quantity {
+    position: relative;
+    left: 20px;
+    color: black;
+    font-size: 12px;
+}
+
+.quantity::before {
+    content: attr(data-quantity);
+}
+
+.current {
+    color: white;
+    background: rgba(204, 85, 32, 1);
+}
+
+.breadcrumbs {
+    background: rgba(230, 230, 230, 1);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+
+.breadcrumbs h4 {
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left; 
+    color: rgba(0, 0, 0, 1);  
+}
+
+.breadcrumb li {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    letter-spacing: 0.05em;
+    text-align: center;    
+    color: rgba(150, 149, 149, 1);
+    text-decoration: none;
+} 
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    color: rgba(150, 149, 149, 1);
+  }
+
+  ul.breadcrumb li {
+    display: inline;
+  }
+
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    content: "/";
+  }
+
+@media screen and (max-width: 1215px) {
+
+    .all-items {
+        flex-direction: column;
+    }
+
+    .link li a {
+        text-align: center;
+    }
+
+    .link h4 {
+        text-align: center;
+    }
+
+    .links div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts ul {
+        justify-content: center;
+    }
+
+    .head ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dot:checked ~ .site-navigation {
+        padding: 53px;
+        position: fixed;
+        top: 0px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.75);
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .head ul li a {
+        font-family: Montserrat;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30.48px;
+        letter-spacing: 0.06em;
+        text-align: center;
+    }
+
+    .topic {
+        display: flex;
+        flex-wrap: wrap;
+        width: 414px;
+        justify-content: center;
+        gap: 10px;
+        padding: 0 0 25px;
+    }
+    
+    .search {
+        padding: 0px 0 35px;
+    }
+    
+    .topic li {
+        border: 1px solid rgba(255, 61, 0, 1);
+        border-radius: 7px;
+    }
+
+    .link div {
+        text-align: center;
+    }
+
+    .selection {
+        align-items: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: auto;
+        gap: 0;
+    }
+
+    .card img {
+        width: auto;
+        height: auto;
+    }
+
+    .card button {
+        top: -210px;
+        left: 159px;
+    }
+
+    .all-foxes {
+        left: 0;
+        width: 355px;
+        height: 70px;
+    }
+
+    .info {
+        top: -42px;
+        gap: 20px;
+    }
+
+    [for="dot"] .dot {
+        display: none;
+    }
+
+    [for="dot"] {
+        font-size: 36px;
+        position: relative;
+        top: -8px;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        display: block;
+    }
+
+    .card {
+        align-items: center;
+    }
+
+    #dot:checked+label+.site-navigation {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        left: 0;
+        padding-top: 70px;
+        display: block;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.75);
+    }
+
+    #dot:checked+label {
+        display: none;
+        width: 100%;
+        z-index: 2;
+        left: -30px;
+        top: 0;
+    }    
+    
+    .head {
+        height: 37px;
+    }
+    
+    .site-navigation {
+        display: none;
+    }
+    
+    .title h1 {
+        font-family: Playfair Display;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 65px;
+        text-align: left;
+    }
+    
+    .title p {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .title {
+        top: 80px;
+        left: 11px;
+        width: 335px;
+    }
+
+    input[type='email'] {
+        width: 333px;
+        height: 48px;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .subscribe h1 {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+
+    .subscribe div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe p {
+        width: 354px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+
+    .sub {
+        width: 355px;
+        height: 70px;
+        left: 0;
+    }
+
+    .link {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link .contacts-call {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+    .link p {
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    }
